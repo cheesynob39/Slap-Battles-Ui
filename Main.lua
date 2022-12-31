@@ -1,4 +1,3 @@
--- Ok Hub
 
 if game.CoreGui:FindFirstChild("DarkHubLib") then
     game.CoreGui.DarkHubLib:Destroy()
@@ -1413,7 +1412,7 @@ function DarkLib:Window()
 			Title.TextColor3 = Color3.fromRGB(195, 195, 195)
 			Title.TextSize = 14.000
 			Title.TextXAlignment = Enum.TextXAlignment.Left
-			Title.Text = "R2O | ".. = game.MarketplaceService:GetProductInfo(game.PlaceId)
+			Title.Text = "R2O | "..  game.MarketplaceService:GetProductInfo(game.PlaceId)
 
 
 			BindFrame.Name = "BindFrame"
@@ -1421,7 +1420,7 @@ function DarkLib:Window()
 			BindFrame.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
 			BindFrame.Position = UDim2.new(0.775967538, 0, 0.172413796, 0)
 			BindFrame.Size = UDim2.new(0, 103, 0, 19)
-titlw
+
 			BindFrameUICorner.CornerRadius = UDim.new(0, 6)
 			BindFrameUICorner.Name = "BindFrameUICorner"
 			BindFrameUICorner.Parent = BindFrame
